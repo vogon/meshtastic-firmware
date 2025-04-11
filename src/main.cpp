@@ -437,6 +437,8 @@ void setup()
     powerStatus->observe(&power->newStatus);
     power->setup(); // Must be after status handler is installed, so that handler gets notified of the initial configuration
 
+    delay(5000); // CB wait for I2C devices that are slow to start to wake up
+
 #if !MESHTASTIC_EXCLUDE_I2C
     // We need to scan here to decide if we have a screen for nodeDB.init() and because power has been applied to
     // accessories

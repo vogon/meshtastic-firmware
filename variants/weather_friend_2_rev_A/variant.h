@@ -96,6 +96,8 @@ No longer populated on PCB
 #define EXTERNAL_FLASH_DEVICES MX25R1635F
 #define EXTERNAL_FLASH_USE_QSPI
 
+#define PMSA003I_ENABLE_PIN (0 + 28)
+
 /*
  * Lora radio
  */

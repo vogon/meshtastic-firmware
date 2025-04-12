@@ -168,19 +168,19 @@ No longer populated on PCB
 // it is defined in the anlaolgue pin section of this file
 // and has 12 bit resolution
 
-#define ADC_CTRL 6
-#define ADC_CTRL_ENABLED HIGH
-#define BATTERY_PIN 4
-#define ADC_RESOLUTION 14
+// #define ADC_CTRL 6
+// #define ADC_CTRL_ENABLED HIGH
+// #define BATTERY_PIN 4
+// #define ADC_RESOLUTION 14
 
-#define BATTERY_SENSE_RESOLUTION_BITS 12
-#define BATTERY_SENSE_RESOLUTION 4096.0
-#undef AREF_VOLTAGE
-#define AREF_VOLTAGE 3.0
-#define VBAT_AR_INTERNAL AR_INTERNAL_3_0
-#define ADC_MULTIPLIER (4.90F)
+// #define BATTERY_SENSE_RESOLUTION_BITS 12
+// #define BATTERY_SENSE_RESOLUTION 4096.0
+// #undef AREF_VOLTAGE
+// #define AREF_VOLTAGE 3.0
+// #define VBAT_AR_INTERNAL AR_INTERNAL_3_0
+// #define ADC_MULTIPLIER (4.90F)
 
-#define HAS_RTC 0
+#define HAS_RTC 1
 #ifdef __cplusplus
 }
 #endif
